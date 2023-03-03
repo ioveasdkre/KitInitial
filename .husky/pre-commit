@@ -1,13 +1,4 @@
-#!/bin/sh
-# ~/.huskyrc
-# This loads nvm.sh and sets the correct PATH before running hook
-export NVM_DIR="$HOME/.nvm"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-if [ -s "$NVM_DIR/nvm.sh" ]; then
-  # Load nvm
-  . "$NVM_DIR/nvm.sh"
-fi
-
-. "$(dirname "$0")/_/husky.sh"
-
-npx pretty-quick --stagednpx lint-staged
+npx pretty-quick --staged
