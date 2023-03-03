@@ -19,7 +19,8 @@
   "lint-staged": {
     "**/*": [
       "eslint --fix",
-      "prettier --write -ignore-unknown"
+      "prettier --write -ignore-unknown",
+      "git add"
     ]
   },
   "author": "",
