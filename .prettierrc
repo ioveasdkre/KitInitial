@@ -3,7 +3,6 @@
   "useTabs": false,
   "printWidth": 100,
   "bracketSpacing": true,
-  "curly": "all",
   "singleQuote": true,
   "trailingComma": "all",
   "semi": true,
