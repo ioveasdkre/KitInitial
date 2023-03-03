@@ -9,3 +9,5 @@ if [ -s "$NVM_DIR/nvm.sh" ]; then
 fi
 
 . "$(dirname "$0")/_/husky.sh"
+
+npx pretty-quick --staged
