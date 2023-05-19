@@ -11,18 +11,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
-  "lint-staged": {
-    "**/*": [
-      "eslint --fix",
-      "prettier --write -ignore-unknown",
-      "git add"
-    ]
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
